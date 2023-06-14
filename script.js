@@ -2,6 +2,8 @@ const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
 const copia = document.querySelector(".copiar");
 
+
+
 function btnEncriptar() {
     const textoEncriptado = encriptar(textArea.value);
     mensaje.value = textoEncriptado;
