@@ -96,3 +96,57 @@ main{
     font-size: 18px;
     text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+    .logo {
+      width: 50%;
+      margin-left: 10px;
+    }
+  
+    main {
+      margin-left: 0;
+      flex-direction: column;
+    }
+  
+    .text-area,
+    .mensaje {
+      width: 85%;
+      margin-left: 10px;
+    }
+  
+    .caja1,
+    .caja2 {
+      width: 100%;
+    }
+  
+    .botones {
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 18px;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .btn-desencriptar{
+        margin-top: 10px;
+    }
+  
+    .btn-desencriptar,
+    .btn-encriptar
+     {
+      width: auto;
+      margin-left: 0;
+      
+    }
+    .copiar {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        margin-top: 90%;
+        margin-left: 150px;
+        
+    }
+}
+  
+  
+
+
